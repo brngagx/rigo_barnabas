@@ -1,0 +1,123 @@
+body{
+	
+	font font-size: 16px;	
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	 
+	background-image: url('CSS/kepek/hatter.jpg');
+	
+  
+}
+
+*, *::before, *::after{
+
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;	
+}
+
+
+}
+
+/*layout--*/
+body{
+	display: grid;
+	grid-template-areas: 
+	"fejlec"
+	"kontent"
+	"lablec"
+	;
+	grid-template-rows: max-content 1fr max-content;
+	min-height: 100vh;
+	}
+	header{
+	background-color: grey;
+	grid-area: fejlec;
+	
+	}
+	main{
+	background-color: #45465;
+	grid-area: kontent;
+	}
+	
+
+/*layout_vége--*/
+
+a{
+	text-decoration: none;	
+}
+
+header{
+	font-size: 1.5rem;	
+	background-color: solid green;	
+	padding:  1rem;
+	margin:20px;
+	border-radius: 1rem;
+	
+}
+/*header:vége*/
+.nev{
+	/*border:2px solid black;*/
+	display: block;	
+	font-size: 1.5rem;	
+	background-color: #eeeee6;	
+	padding: 1rem;
+	margin:20px;
+	border-radius: 1rem;
+	text-align: right;
+	transition: 2s;
+}
+
+.menu{
+	
+	display: inline-block;
+	width: 20%;	
+	cursor: pointer;
+	font-size: 1.5rem;	
+	background-color: #eeeee6;	
+	padding: 1rem;
+	margin:1rem;
+	border-radius: 1rem;
+	user-select: none;
+	text-align: center;
+	transition: 2s;
+	min-width: max-content;	
+}
+
+.menu:hover{
+	cursor: pointer;
+	background-color: #d9d9d9;
+}
+
+.flex_egyenletesen{
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
